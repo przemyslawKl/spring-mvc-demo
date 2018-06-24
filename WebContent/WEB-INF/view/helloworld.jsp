@@ -9,7 +9,7 @@ Hello World of Spring
 
 <br></br>
 
-Student name ; ${param.studentName} 
+Student name : ${param.studentName} 
 
 </body>
 
