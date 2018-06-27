@@ -14,6 +14,7 @@
 	Country : ${student.country} 
 	<br></br>
 	Another Country : ${student.countryI} 
+	Students favorite language : ${student.favoriteLanguage}
 
 </body>
 

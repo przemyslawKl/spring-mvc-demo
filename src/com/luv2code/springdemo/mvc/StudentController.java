@@ -2,6 +2,10 @@ package com.luv2code.springdemo.mvc;
 
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.sun.javafx.collections.MappingChange.Map;
+
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 
@@ -27,13 +31,5 @@ public class StudentController {
 		
 		return "student-confirmation";
 	}
+	
 }
-
-/*
-<form:option value = "Poland" label = "Poland"/>
-<form:option value = "Germany" label = "Germany"/>
-<form:option value = "USA" label = "USA"/>
-<form:option value = "Croatia" label = "Croatia"/>
-<form:option value = "Spain" label = "Spain"/>
-<form:option value = "Portugal" label = "Portugal"/>
-*/
