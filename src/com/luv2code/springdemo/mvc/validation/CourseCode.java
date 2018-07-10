@@ -20,5 +20,5 @@ public @interface CourseCode {
  	// define default groups
 	public Class <?>[] groups() default{};
 	// define dafault payloads
-	public Class <? extends Payload>[] Payload () default {}; 
+	public Class <? extends Payload>[] payload() default {}; 
 }
